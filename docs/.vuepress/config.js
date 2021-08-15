@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/', // 部署站点的基础路径
+  base: '/vuepress-doc/', // 部署站点的基础路径
   title: '前端组件在线文档',
   description: 'Just playing around',
   head: ['link', { rel: 'icon', href: '/logo.png' }], // 存放在head头中的标签
