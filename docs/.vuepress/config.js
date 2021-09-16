@@ -1,15 +1,14 @@
 module.exports = {
   base: '/vuepress-doc/', // 部署站点的基础路径
-  title: '前端组件在线文档',
+  title: '前端面试必备',
   description: 'Just playing around',
-  head: ['link', { rel: 'icon', href: '/logo.png' }], // 存放在head头中的标签
   displayAllHeaders: true,
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/contents/JS/基础类型.md' },
       { text: 'Guide', link: '/guide/' },
       {
         text: 'Languages',
@@ -21,12 +20,11 @@ module.exports = {
       { text: 'External', link: 'https://www.baidu.com' },
     ],
     sidebar: [
-      ['../contents/AdaptToolTip', '自适应ToolTip'],
       {
-        title: '你大爷的',
-        path: '/contents/my/my',
+        title: 'JS',
         children: [
-          ['/contents/my/my.md', '快乐']
+          ['/contents/JS/基础类型.md', '基础类型'],
+          ['/contents/JS/闭包.md', '闭包'],
         ]
       },
     ]
