@@ -17,7 +17,7 @@ module.exports = {
       //     { text: 'English', link: '/language/english' }
       //   ]
       // },
-      { text: 'External', link: 'https://github.com/WhyJaz/vuepress-doc' },
+      { text: 'External', link: 'https://github.com/changjinyu0/vuepress-doc' },
     ],
     sidebar: [
       {
