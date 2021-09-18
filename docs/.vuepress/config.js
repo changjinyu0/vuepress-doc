@@ -1,6 +1,6 @@
 module.exports = {
   base: '/vuepress-doc/', // 部署站点的基础路径
-  title: '前端装逼大全',
+  title: '前端笔记',
   description: 'Just playing around',
   displayAllHeaders: true,
   markdown: {
@@ -60,6 +60,36 @@ module.exports = {
           ['/contents/Browser/TCP与UDP异同.md', 'TCP与UDP异同'],
           ['/contents/Browser/Window对象.md', 'Window对象'],
           ['/contents/Browser/XSS跨站脚本攻击.md', 'XSS跨站脚本攻击'],
+        ]
+      },
+      {
+        title: 'CSS',
+        children: [
+          ['/contents/CSS/布局垂直居中.md', '布局垂直居中'],
+          ['/contents/CSS/块级格式化上下文.md', '块级格式化上下文'],
+          ['/contents/CSS/如何避免FOUC.md', '如何避免FOUC'],
+          ['/contents/CSS/实现毛玻璃效果.md', '实现毛玻璃效果'],
+          ['/contents/CSS/实现文字滚动播放.md', '实现文字滚动播放'],
+          ['/contents/CSS/伪类与伪元素.md', '伪类与伪元素'],
+          ['/contents/CSS/文本溢出截断省略.md', '文本溢出截断省略'],
+          ['/contents/CSS/响应式布局的实现.md', '响应式布局的实现'],
+          ['/contents/CSS/CSS3新特性.md', 'CSS3新特性'],
+          ['/contents/CSS/CSS常用单位.md', 'CSS常用单位'],
+          ['/contents/CSS/CSS盒子模型.md', 'CSS盒子模型'],
+          ['/contents/CSS/CSS实现渐隐渐现效果.md', 'CSS实现渐隐渐现效果'],
+          ['/contents/CSS/CSS实现图形效果.md', 'CSS实现图形效果'],
+          ['/contents/CSS/CSS实现展开动画.md', 'CSS实现展开动画'],
+          ['/contents/CSS/CSS选择器.md', 'CSS选择器'],
+          ['/contents/CSS/CSS样式优先级.md', 'CSS样式优先级'],
+          ['/contents/CSS/CSS引入方式.md', 'CSS引入方式'],
+          ['/contents/CSS/CSS隐藏元素的方法.md', 'CSS隐藏元素的方法'],
+          ['/contents/CSS/display的值及作用.md', 'display的值及作用'],
+          ['/contents/CSS/Flex布局.md', 'Flex布局'],
+          ['/contents/CSS/Float浮动.md', 'Float浮动'],
+          ['/contents/CSS/Grid布局.md', 'Grid布局'],
+          ['/contents/CSS/Position定位.md', 'Position定位'],
+          ['/contents/CSS/SVG基础.md', 'SVG基础'],
+          ['/contents/CSS/Table布局.md', 'Table布局'],
         ]
       },
     ]
