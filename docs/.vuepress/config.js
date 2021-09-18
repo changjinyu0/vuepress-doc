@@ -8,8 +8,8 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/contents/js/基础类型.md' },
-      { text: 'Guide', link: '/contents/js/基础类型.md' },
+      { text: 'Home', link: '/contents/Browser/对称加密与非对称加密.md' },
+      { text: 'Guide', link: '/contents/Browser/对称加密与非对称加密.md' },
       // {
       //   text: 'Languages',
       //   items: [
@@ -21,10 +21,9 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'JS',
+        title: 'Browser',
         children: [
-          ['/contents/js/基础类型.md', '基础类型'],
-          ['/contents/js/闭包.md', '闭包'],
+          ['/contents/Browser/对称加密与非对称加密.md', '对称加密与非对称加密'],
         ]
       },
     ]
