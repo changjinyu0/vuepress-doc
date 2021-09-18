@@ -16,7 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:WhyJaz/vuepress-doc.git master:gh-pages
+git push -f git@github.com:changjinyu0/vuepress-doc.git master:gh-pages
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 
 cd -
